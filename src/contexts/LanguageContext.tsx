@@ -76,13 +76,13 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
       'projects.pawnable.desc6': '테스트넷 배포 및 거버넌스 토큰 구현 계획',
 
       'projects.hiarc.name': 'HiARC 홈페이지',
-      'projects.hiarc.type': '팀 프로젝트',
+      'projects.hiarc.type': '팀 프로젝트 (완료)',
       'projects.hiarc.desc1': 'HiARC 동아리 웹사이트의 프론트엔드 개발 부분 담당',
       'projects.hiarc.desc2': '수상 및 업적 페이지 구현',
       'projects.hiarc.desc3': '협업 아키텍처 설계 및 디자이너와 긴밀한 협력 경험',
 
       'projects.rating.name': 'Hi-Rating',
-      'projects.rating.type': '팀 프로젝트',
+      'projects.rating.type': '팀 프로젝트 (완료)',
       'projects.rating.desc1': '전체 프론트엔드 구현',
       'projects.rating.desc2': '모노레포 아키텍처 적용',
       'projects.rating.desc3': '쿠키를 사용한 관리자 로그인 구현',
@@ -156,13 +156,13 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
       'projects.pawnable.desc6': 'Testnet deployment planned with future governance token implementation',
 
       'projects.hiarc.name': 'HiARC Homepage',
-      'projects.hiarc.type': 'Team Project',
+      'projects.hiarc.type': 'Team Project (Completed)',
       'projects.hiarc.desc1': 'Partially responsible for frontend development of the HiARC club website',
       'projects.hiarc.desc2': 'Implemented the Awards & Achievements page',
       'projects.hiarc.desc3': 'Experience in collaborative architecture design and working closely with designers',
 
       'projects.rating.name': 'Hi-Rating',
-      'projects.rating.type': 'Team Project',
+      'projects.rating.type': 'Team Project (Completed)',
       'projects.rating.desc1': 'Implemented the entire frontend',
       'projects.rating.desc2': 'Applied monorepo architecture',
       'projects.rating.desc3': 'Implemented admin login using cookies',

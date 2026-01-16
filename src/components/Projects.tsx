@@ -34,16 +34,6 @@ const Projects: React.FC = () => {
       ],
     },
     {
-      name: t('projects.hiarc.name'),
-      link: 'https://hiarchomepage.web.app/',
-      type: t('projects.hiarc.type'),
-      description: [
-        t('projects.hiarc.desc1'),
-        t('projects.hiarc.desc2'),
-        t('projects.hiarc.desc3'),
-      ],
-    },
-    {
       name: t('projects.rating.name'),
       link: 'https://rating.hiarc-official.com/',
       type: t('projects.rating.type'),
@@ -54,6 +44,16 @@ const Projects: React.FC = () => {
         t('projects.rating.desc4'),
         t('projects.rating.desc5'),
         t('projects.rating.desc6'),
+      ],
+    },
+    {
+      name: t('projects.hiarc.name'),
+      link: 'https://hiarchomepage.web.app/',
+      type: t('projects.hiarc.type'),
+      description: [
+        t('projects.hiarc.desc1'),
+        t('projects.hiarc.desc2'),
+        t('projects.hiarc.desc3'),
       ],
     },
   ];
@@ -67,9 +67,8 @@ const Projects: React.FC = () => {
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               {project.name}
             </a>
-            {' — '}
-            <span className="project-type">{project.type}</span>
           </h3>
+          <div className="project-type">{project.type}</div>
           <ul>
             {project.description.map((desc, index) => (
               <li key={index}>{desc}</li>
