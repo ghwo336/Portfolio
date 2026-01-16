@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
   const projects = [
     {
       name: t('projects.chef.name'),
-      link: '#',
+      link: 'https://chef-token-dining.vercel.app/',
       type: t('projects.chef.type'),
       description: [
         t('projects.chef.desc1'),
