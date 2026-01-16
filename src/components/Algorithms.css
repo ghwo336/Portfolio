@@ -1,0 +1,20 @@
+.algorithm-badge {
+  text-align: center;
+  padding: 1rem;
+}
+
+.algorithm-badge a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.algorithm-badge a:hover {
+  transform: scale(1.05);
+}
+
+.algorithm-badge img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

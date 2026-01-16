@@ -1,0 +1,18 @@
+.blog-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: flex-start;
+}
+
+.blog-links a {
+  transition: transform 0.3s ease;
+}
+
+.blog-links a:hover {
+  transform: translateY(-3px);
+}
+
+.blog-links img {
+  height: 32px;
+}

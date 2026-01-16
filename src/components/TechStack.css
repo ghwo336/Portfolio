@@ -1,0 +1,22 @@
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.tech-badges img {
+  height: 32px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.tech-badges img:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .tech-badges {
+    justify-content: center;
+  }
+}
