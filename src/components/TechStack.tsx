@@ -1,5 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
+import './Section.css';
+import './TechStack.css';
 
 const TechStack: React.FC = () => {
   const { t } = useLanguage();

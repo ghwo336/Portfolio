@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
+import './Header.css';
 
 const Header: React.FC = () => {
   const { t, language } = useLanguage();

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
+import './Section.css';
 
 const AboutMe: React.FC = () => {
   const { t } = useLanguage();

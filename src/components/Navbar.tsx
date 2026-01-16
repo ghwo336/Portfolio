@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
+import './Navbar.css';
 
 const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -43,6 +44,7 @@ const Navbar: React.FC = () => {
           <img src="/myProfile.png" alt="Hojae Lee" className="navbar-profile" />
           Hojae Lee
         </a>
+
         <div className="navbar-right">
           <ul className="navbar-menu">
             {menuItems.map((item) => (
