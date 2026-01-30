@@ -8,6 +8,7 @@ const Affiliations: React.FC = () => {
     t('affiliations.1'),
     t('affiliations.2'),
     t('affiliations.3'),
+    t('affiliations.4'),
   ];
 
   return (
