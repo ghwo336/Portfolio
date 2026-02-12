@@ -1,10 +1,10 @@
 import React from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
+import {useLanguage} from '../contexts/LanguageContext';
 import './Section.css';
 import './Projects.css';
 
 const Projects: React.FC = () => {
-  const { t } = useLanguage();
+  const {t} = useLanguage();
 
   const projects = [
     {
