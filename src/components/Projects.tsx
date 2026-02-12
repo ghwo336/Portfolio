@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
     },
     {
       name: t('projects.pawnable.name'),
-      link: '#',
+      link: 'https://pawnable.site',
       type: t('projects.pawnable.type'),
       description: [
         t('projects.pawnable.desc1'),
