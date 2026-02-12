@@ -63,7 +63,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
       // Projects
       'projects.title': '🐥 프로젝트',
       'projects.chef.name': 'Chef Token Dining',
-      'projects.chef.type': '졸업 프로젝트 (기획 중)',
+      'projects.chef.type': '개인 프로젝트 (진행 중)',
       'projects.chef.desc1':
         '재능있는 셰프가 미래의 식사 경험을 토큰화하는 Web3 기반 선결제 플랫폼',
       'projects.chef.desc2':
@@ -78,7 +78,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
         '기술 스택: 스마트 컨트랙트 (ERC-20), Express.js, PostgreSQL, React, 지갑 연동',
 
       'projects.pawnable.name': 'PAWNABLE',
-      'projects.pawnable.type': '개인 프로젝트 (진행 중)',
+      'projects.pawnable.type': '개인 프로젝트 (완료)',
       'projects.pawnable.desc1':
         '독특한 청산 메커니즘을 가진 담보 기반 P2P 대출 DeFi 플랫폼',
       'projects.pawnable.desc2':
@@ -88,7 +88,8 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
       'projects.pawnable.desc4': 'ETH, SOL, NFT를 담보로 지원',
       'projects.pawnable.desc5':
         '기술 스택: React, Express.js, PostgreSQL, 스마트 컨트랙트, 지갑 연동',
-      'projects.pawnable.desc6': '테스트넷 배포 및 거버넌스 토큰 구현 계획',
+      'projects.pawnable.desc6':
+        'Consensus 홍콩 해커톤에서 완성, Base Sepolia 테스트넷 배포 (https://pawnable.site)',
 
       'projects.hiarc.name': 'HiARC 홈페이지',
       'projects.hiarc.type': '팀 프로젝트 (완료)',
@@ -161,7 +162,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
       // Projects
       'projects.title': '🐥 Projects',
       'projects.chef.name': 'Chef Token Dining',
-      'projects.chef.type': 'Graduation Project (Planning)',
+      'projects.chef.type': 'Personal Project (In Progress)',
       'projects.chef.desc1':
         'Web3-based prepayment platform where talented chefs tokenize future dining experiences',
       'projects.chef.desc2':
@@ -176,7 +177,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
         'Tech Stack: Smart Contracts (ERC-20), Express.js, PostgreSQL, React, Wallet Integration',
 
       'projects.pawnable.name': 'PAWNABLE',
-      'projects.pawnable.type': 'Personal Project (In Progress)',
+      'projects.pawnable.type': 'Personal Project (Completed)',
       'projects.pawnable.desc1':
         'Collateral-based P2P lending DeFi platform with unique liquidation mechanism',
       'projects.pawnable.desc2':
@@ -187,7 +188,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
       'projects.pawnable.desc5':
         'Tech Stack: React, Express.js, PostgreSQL, Smart Contracts, Wallet Integration',
       'projects.pawnable.desc6':
-        'Testnet deployment planned with future governance token implementation',
+        'Completed at Consensus Hong Kong Hackathon, deployed on Base Sepolia testnet (https://pawnable.site)',
 
       'projects.hiarc.name': 'HiARC Homepage',
       'projects.hiarc.type': 'Team Project (Completed)',
