@@ -29,7 +29,10 @@ interface LanguageProviderProps {
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({
   children,
 }) => {
-  const [language, setLanguage] = useState<Language>('ko');
+  const [language, setLanguage] = useState<Language>(() => {
+    const browserLang = navigator.language;
+    return browserLang.startsWith('ko') ? 'ko' : 'en';
+  });
 
   const toggleLanguage = () => {
     setLanguage((prev) => (prev === 'ko' ? 'en' : 'ko'));
