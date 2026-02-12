@@ -78,7 +78,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
         '기술 스택: 스마트 컨트랙트 (ERC-20), Express.js, PostgreSQL, React, 지갑 연동',
 
       'projects.pawnable.name': 'PAWNABLE',
-      'projects.pawnable.type': '개인 프로젝트 (완료)',
+      'projects.pawnable.type': '팀 프로젝트 (완료)',
       'projects.pawnable.desc1':
         '독특한 청산 메커니즘을 가진 담보 기반 P2P 대출 DeFi 플랫폼',
       'projects.pawnable.desc2':
@@ -177,7 +177,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
         'Tech Stack: Smart Contracts (ERC-20), Express.js, PostgreSQL, React, Wallet Integration',
 
       'projects.pawnable.name': 'PAWNABLE',
-      'projects.pawnable.type': 'Personal Project (Completed)',
+      'projects.pawnable.type': 'Team Project (Completed)',
       'projects.pawnable.desc1':
         'Collateral-based P2P lending DeFi platform with unique liquidation mechanism',
       'projects.pawnable.desc2':
