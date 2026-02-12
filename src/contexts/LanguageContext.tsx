@@ -85,7 +85,8 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
         '차입자가 직접 금리를 제시하여 유연한 P2P 매칭',
       'projects.pawnable.desc3':
         '담보 가치 하락이 아닌 시간 기반 청산 (청산 스트레스 없음)',
-      'projects.pawnable.desc4': 'ETH, SOL, NFT를 담보로 지원',
+      'projects.pawnable.desc4':
+        '봇을 이용하여 기한이 지나면 청산 트랜잭션 구현',
       'projects.pawnable.desc5':
         '기술 스택: React, Express.js, PostgreSQL, 스마트 컨트랙트, 지갑 연동',
       'projects.pawnable.desc6':
@@ -184,7 +185,8 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
         'Borrowers propose their own interest rates for flexible P2P matching',
       'projects.pawnable.desc3':
         'Time-based liquidation instead of collateral value drop (no liquidation stress)',
-      'projects.pawnable.desc4': 'Support for ETH, SOL, and NFT as collateral',
+      'projects.pawnable.desc4':
+        'Automated liquidation transactions triggered by bots upon deadline expiration',
       'projects.pawnable.desc5':
         'Tech Stack: React, Express.js, PostgreSQL, Smart Contracts, Wallet Integration',
       'projects.pawnable.desc6':
