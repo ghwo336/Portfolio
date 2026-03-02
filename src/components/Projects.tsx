@@ -21,6 +21,18 @@ const Projects: React.FC = () => {
       ],
     },
     {
+      name: t('projects.heist.name'),
+      link: 'https://yt4307.mooo.com',
+      type: t('projects.heist.type'),
+      description: [
+        t('projects.heist.desc1'),
+        t('projects.heist.desc2'),
+        t('projects.heist.desc3'),
+        t('projects.heist.desc4'),
+        t('projects.heist.desc5'),
+      ],
+    },
+    {
       name: t('projects.pawnable.name'),
       link: 'https://pawnable.site',
       type: t('projects.pawnable.type'),

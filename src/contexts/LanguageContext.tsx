@@ -59,6 +59,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
       'about.animal': '제가 좋아하는 동물은 펠리컨입니다 🐥',
       'about.motto':
         '저는 먼저 시도하고 나중에 최적화하는 타입입니다. (빠르게 실패하고, 더 빠르게 배웁니다.)',
+      'about.github': 'GitHub 프로필 보기',
 
       // Tech Stack
       'tech.title': '🛠️ 기술 스택',
@@ -79,6 +80,19 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
         '하이브리드 아키텍처: 중앙화된 셰프 검증, 탈중앙화된 토큰 및 자금 관리',
       'projects.chef.desc6':
         '기술 스택: 스마트 컨트랙트 (ERC-20), Express.js, PostgreSQL, React, 지갑 연동',
+
+      'projects.heist.name': 'HEIST',
+      'projects.heist.type': '팀 프로젝트 (진행 중)',
+      'projects.heist.desc1':
+        '6인 비대칭 팀 기반 실시간 전략 PvP 게임 (도둑 4명 vs 경찰 2명)',
+      'projects.heist.desc2':
+        '오프체인 실시간 게임플레이, Solana 온체인 escrow 및 자동 정산',
+      'projects.heist.desc3':
+        '역할 기반 시야 시스템과 비대칭 스킬 설계 (변장, 벽 설치, 체포 등)',
+      'projects.heist.desc4':
+        '참가비 escrow 및 승리 팀에게 자동 분배 (Solana Devnet)',
+      'projects.heist.desc5':
+        '솔라나 스타트업 빌리지 프로그램에서 진행',
 
       'projects.pawnable.name': 'PAWNABLE',
       'projects.pawnable.type': '팀 프로젝트 (완료)',
@@ -159,6 +173,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
       'about.animal': 'My favorite animal is the pelican 🐥',
       'about.motto':
         "I'm the type who tries first and optimizes later. (Fail fast, learn faster.)",
+      'about.github': 'View GitHub Profile',
 
       // Tech Stack
       'tech.title': '🛠️ Tech Stacks',
@@ -179,6 +194,19 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({
         'Hybrid architecture: centralized chef verification, decentralized token & fund management',
       'projects.chef.desc6':
         'Tech Stack: Smart Contracts (ERC-20), Express.js, PostgreSQL, React, Wallet Integration',
+
+      'projects.heist.name': 'HEIST',
+      'projects.heist.type': 'Team Project (In Progress)',
+      'projects.heist.desc1':
+        '6-player asymmetric team-based real-time strategy PvP game (4 Thieves vs 2 Police)',
+      'projects.heist.desc2':
+        'Off-chain real-time gameplay with Solana on-chain escrow and automated settlement',
+      'projects.heist.desc3':
+        'Role-based vision system and asymmetric skill design (disguise, wall deployment, arrest, etc.)',
+      'projects.heist.desc4':
+        'Entry fee escrow with automatic distribution to the winning team (Solana Devnet)',
+      'projects.heist.desc5':
+        'Developed in the Solana Startup Village program',
 
       'projects.pawnable.name': 'PAWNABLE',
       'projects.pawnable.type': 'Team Project (Completed)',
