@@ -58,6 +58,10 @@ export const PROJECTS: CardItem[] = [
         href: "https://github.com/Chain-Lens/ChainLens",
         label: both("GitHub"),
       },
+      {
+        href: "https://kickstart.easya.io/token/BVG5pTybt2EV2LzfDoKLPmH8QVRoq5XPbdBUAy2rtCdb",
+        label: { ko: "EasyA 런치패드 토큰", en: "EasyA launchpad token" },
+      },
     ],
   },
   {

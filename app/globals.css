@@ -31,7 +31,7 @@ img{display:block;max-width:100%}
 
 /* ---------- HERO : 어두운 객석에서 보는 무대 ---------- */
 .hero{position:relative;background:#000}
-.hero-img{width:100%;max-height:74vh;object-fit:cover;object-position:center 30%;opacity:.9}
+.hero-img{width:100%;max-height:48vh;min-height:300px;object-fit:cover;object-position:center 30%;opacity:.9}
 .hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,transparent 40%,rgba(6,8,12,.55) 100%);pointer-events:none}
 .chyron{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:20px 20px 24px;background:linear-gradient(to top,rgba(6,9,14,.96) 25%,rgba(6,9,14,.6) 70%,transparent)}
 .chyron-inner{max-width:760px;margin:0 auto}
