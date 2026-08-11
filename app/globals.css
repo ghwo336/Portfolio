@@ -32,14 +32,13 @@ img{display:block;max-width:100%}
 /* ---------- HERO : 이름 + 작은 무대 사진 ---------- */
 .hero{padding:76px 0 8px}
 .hero-inner{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap}
-.hero-text .pelican-badge{width:56px;height:56px;margin-bottom:12px}
 .hero h1{font-family:var(--serif);font-weight:900;font-size:clamp(27px,6vw,44px);line-height:1.2;color:#fff;letter-spacing:-.01em}
+.hero h1 .pelican-badge{display:inline-block;width:.95em;height:.95em;vertical-align:-.12em;margin-right:.22em}
 .hero h1 span{display:block;font-weight:600;font-size:.45em;color:var(--mut);letter-spacing:.02em;margin-top:6px}
 .hero-photo{width:min(300px,100%);aspect-ratio:3/2;object-fit:cover;object-position:center 30%;border-radius:8px;border:1px solid var(--line)}
 /* 등장 모션 */
 .hero .slide{opacity:0;transform:translateY(18px);animation:chyron-in .7s cubic-bezier(.2,.7,.3,1) forwards}
 .hero h1.slide{animation-delay:.15s}
-.hero-photo.slide{animation-delay:.3s}
 @keyframes chyron-in{to{opacity:1;transform:none}}
 
 /* ---------- INTRO ---------- */
