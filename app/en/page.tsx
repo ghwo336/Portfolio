@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
 import Portfolio from "@/components/Portfolio";
+import { SITE_META } from "@/content/site";
 
-export const metadata: Metadata = {
-  title: "Hojae Lee | Web3 Builder",
-  description:
-    "Hojae Lee speaks on stage, teaches geth internals, and builds regulation-friendly on-chain finance.",
-};
+export const metadata: Metadata = SITE_META.en;
 
 export default function HomeEn() {
   return <Portfolio lang="en" />;

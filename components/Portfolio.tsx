@@ -1,4 +1,5 @@
 import type { Lang } from "@/lib/i18n";
+import LangToggle from "@/components/LangToggle";
 import Fx from "@/components/Fx";
 import LangAttr from "@/components/LangAttr";
 import Hero from "@/components/Hero";
@@ -12,16 +13,9 @@ import Press from "@/components/Press";
 import SiteFooter from "@/components/SiteFooter";
 
 export default function Portfolio({ lang }: { lang: Lang }) {
-  const en = lang === "en";
   return (
     <>
-      <a
-        className="lang-toggle"
-        href={en ? "/" : "/en"}
-        aria-label={en ? "한국어로 보기" : "View in English"}
-      >
-        {en ? "한국어" : "EN"}
-      </a>
+      <LangToggle lang={lang} />
       <Hero lang={lang} />
       <Intro lang={lang} />
       <Talks lang={lang} />

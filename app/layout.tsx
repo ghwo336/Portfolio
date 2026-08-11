@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Serif_KR, JetBrains_Mono } from "next/font/google";
+import { SITE_META } from "@/content/site";
 import "./globals.css";
 
 const serif = Noto_Serif_KR({
@@ -16,12 +17,7 @@ const mono = JetBrains_Mono({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "이호재 | Web3 Builder",
-  description:
-    "이호재(Hojae Lee)는 무대에서 발표하고, geth를 가르치고, 규제 친화적 온체인 금융을 빌드합니다.",
-  robots: { index: false },
-};
+export const metadata: Metadata = SITE_META.ko;
 
 export default function RootLayout({
   children,
