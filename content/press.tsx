@@ -4,7 +4,7 @@ import type { LinkItem, SectionInfo } from "@/content/types";
 
 export const PRESS_SECTION: SectionInfo = {
   id: "press",
-  chip: "0x06 PRESS & RECOGNITION",
+  chip: "0x07 PRESS & RECOGNITION",
   title: { ko: "수상 및 기록", en: "Awards & Press" },
 };
 

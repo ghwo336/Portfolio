@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import Talks from "@/components/Talks";
 import Education from "@/components/Education";
+import OpenSource from "@/components/OpenSource";
 import Projects from "@/components/Projects";
 import Community from "@/components/Community";
 import History from "@/components/History";
@@ -20,6 +21,7 @@ export default function Portfolio({ lang }: { lang: Lang }) {
       <Intro lang={lang} />
       <Talks lang={lang} />
       <Education lang={lang} />
+      <OpenSource lang={lang} />
       <Projects lang={lang} />
       <Community lang={lang} />
       <History lang={lang} />

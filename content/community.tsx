@@ -3,7 +3,7 @@ import type { CardItem, SectionInfo } from "@/content/types";
 
 export const COMMUNITY_SECTION: SectionInfo = {
   id: "community",
-  chip: "0x04 COMMUNITY & GROWTH",
+  chip: "0x05 COMMUNITY & GROWTH",
   title: { ko: "커뮤니티 활동", en: "Community" },
 };
 

@@ -4,7 +4,7 @@ import type { SectionInfo } from "@/content/types";
 
 export const HISTORY_SECTION: SectionInfo = {
   id: "history",
-  chip: "0x05 HISTORY",
+  chip: "0x06 HISTORY",
   title: { ko: "이력", en: "History" },
 };
 

@@ -14,7 +14,7 @@ export type LinkItem = {
   label: Localized<string>;
 };
 
-export type TagKind = "wip" | "plan" | "sunset" | "build";
+export type TagKind = "wip" | "plan" | "sunset" | "build" | "merged";
 
 /** 카드형 섹션(발표, 프로젝트, 커뮤니티)의 항목 */
 export type CardItem = {

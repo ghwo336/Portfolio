@@ -11,6 +11,7 @@
   --blue-deep:#3D6BB8;
   --blue-glow:rgba(110,159,232,.14);
   --gold:#D9B26A;        /* 수상 태그용 */
+  --green:#5EC98C;       /* 머지 태그용 */
   --mono:var(--font-mono),'JetBrains Mono',ui-monospace,monospace;
   --serif:var(--font-serif),'Noto Serif KR',serif;
   --sans:'Pretendard Variable',Pretendard,-apple-system,sans-serif;
@@ -76,6 +77,7 @@ section .sub{color:var(--mut);max-width:600px;margin-bottom:30px}
 .tag.plan{background:rgba(217,178,106,.1);color:var(--gold);border:1px solid rgba(217,178,106,.35)}
 .tag.sunset{background:rgba(139,148,167,.1);color:var(--mut);border:1px solid rgba(139,148,167,.3)}
 .tag.wip{background:rgba(110,159,232,.1);color:var(--blue);border:1px solid rgba(110,159,232,.35)}
+.tag.merged{background:rgba(94,201,140,.1);color:var(--green);border:1px solid rgba(94,201,140,.35)}
 
 .talk-photo{border-radius:8px;margin:12px 0 4px;border:1px solid var(--line-soft)}
 figure figcaption{font-size:12px;color:var(--mut);margin-top:8px}

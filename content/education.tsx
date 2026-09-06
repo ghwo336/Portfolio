@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { Localized } from "@/lib/i18n";
 import type { SectionInfo } from "@/content/types";
+import { OSS_SECTION } from "@/content/opensource";
 
 export const EDUCATION_SECTION: SectionInfo = {
   id: "education",
@@ -9,6 +10,8 @@ export const EDUCATION_SECTION: SectionInfo = {
 };
 
 const LECTURES_URL = "https://baydev.pelicanlab.dev/lectures";
+/** 오픈소스 기여 섹션으로 가는 페이지 내 앵커 */
+const OSS_ANCHOR = `#${OSS_SECTION.id}`;
 
 export const EDUCATION_PARAGRAPHS: Localized<ReactNode>[] = [
   {
@@ -21,7 +24,8 @@ export const EDUCATION_PARAGRAPHS: Localized<ReactNode>[] = [
         <a href={LECTURES_URL} target="_blank" rel="noopener noreferrer">
           baydev.pelicanlab.dev
         </a>
-        에서 직접 호스팅합니다.
+        에서 직접 호스팅합니다. 강의 준비 중 읽은 코드에서 찾은 버그는{" "}
+        <a href={OSS_ANCHOR}>go-ethereum에 직접 고쳐 보내</a> 머지되었습니다.
       </>
     ),
     en: (
@@ -35,7 +39,8 @@ export const EDUCATION_PARAGRAPHS: Localized<ReactNode>[] = [
         <a href={LECTURES_URL} target="_blank" rel="noopener noreferrer">
           baydev.pelicanlab.dev
         </a>
-        .
+        . Bugs I found in the code while preparing those lectures were{" "}
+        <a href={OSS_ANCHOR}>fixed and merged upstream in go-ethereum</a>.
       </>
     ),
   },
