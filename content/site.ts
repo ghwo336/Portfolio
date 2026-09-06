@@ -3,15 +3,39 @@ import type { Lang, Localized } from "@/lib/i18n";
 
 export const SITE_META: Record<Lang, Metadata> = {
   ko: {
-    title: "이호재 | Web3 Builder",
-    description:
-      "이호재(Hojae Lee)는 무대에서 발표하고, geth를 가르치고, 규제 친화적 온체인 금융을 빌드합니다.",
+    title: "이호재 | 펠리컨을 좋아하는 Web3 Builder",
+    description: "펠리컨을 좋아하는 Web3 Builder, 이호재입니다.",
+    openGraph: {
+      title: "이호재 | 펠리컨을 좋아하는 Web3 Builder",
+      description: "펠리컨을 좋아하는 Web3 Builder, 이호재입니다.",
+      url: "https://pelicanlab.dev/",
+      siteName: "pelicanlab.dev",
+      locale: "ko_KR",
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title: "이호재 | 펠리컨을 좋아하는 Web3 Builder",
+      description: "펠리컨을 좋아하는 Web3 Builder, 이호재입니다.",
+    },
     robots: { index: false },
   },
   en: {
-    title: "Hojae Lee | Web3 Builder",
-    description:
-      "Hojae Lee speaks on stage, teaches geth internals, and builds regulation-friendly on-chain finance.",
+    title: "Hojae Lee | Web3 Builder Who Loves Pelicans",
+    description: "Hojae Lee is a Web3 builder who loves pelicans.",
+    openGraph: {
+      title: "Hojae Lee | Web3 Builder Who Loves Pelicans",
+      description: "Hojae Lee is a Web3 builder who loves pelicans.",
+      url: "https://pelicanlab.dev/en",
+      siteName: "pelicanlab.dev",
+      locale: "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title: "Hojae Lee | Web3 Builder Who Loves Pelicans",
+      description: "Hojae Lee is a Web3 builder who loves pelicans.",
+    },
   },
 };
 

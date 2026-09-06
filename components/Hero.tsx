@@ -11,11 +11,12 @@ export default function Hero({ lang }: { lang: Lang }) {
           alt={pick(lang, HERO.image.alt)}
           fetchPriority="high"
         />
-        <div className="hero-text">
-          <h1 className="slide">
+        <div className="hero-text slide">
+          <div className="hero-name">
+            <h1>{pick(lang, HERO.name)}</h1>
             <img className="pelican-badge" src={HERO.badgeSrc} alt="" />
-            {pick(lang, HERO.name)} <span>{HERO.role}</span>
-          </h1>
+          </div>
+          <p className="hero-role">{HERO.role}</p>
         </div>
       </div>
     </header>

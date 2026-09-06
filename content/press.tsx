@@ -8,21 +8,34 @@ export const PRESS_SECTION: SectionInfo = {
   title: { ko: "수상 및 기록", en: "Awards & Press" },
 };
 
-export const PRESS_FIGURE: {
+export const PRESS_FIGURES: {
   src: string;
   alt: Localized;
   caption: Localized;
-} = {
-  src: "/vera.jpeg",
-  alt: {
-    ko: "2026 AI·SW중심대학 AI·블록체인 비즈니스 모델 경진대회 우수상 시상",
-    en: "Excellence Award ceremony, 2026 AI·SW University AI·Blockchain Business Model Competition",
+}[] = [
+  {
+    src: "/vera.jpeg",
+    alt: {
+      ko: "2026 AI·SW중심대학 AI·블록체인 비즈니스 모델 경진대회 우수상 시상",
+      en: "Excellence Award ceremony, 2026 AI·SW University AI·Blockchain Business Model Competition",
+    },
+    caption: {
+      ko: "AI·SW중심대학 경진대회 우수상 (VERA)",
+      en: "Excellence Award, AI·SW University Competition · VERA",
+    },
   },
-  caption: {
-    ko: "AI·SW중심대학 경진대회 우수상 (VERA)",
-    en: "Excellence Award, AI·SW University Competition · VERA",
+  {
+    src: "/icpc.jpeg",
+    alt: {
+      ko: "2025 ICPC 서울 리저널 본선에 참가한 이호재와 팀원들",
+      en: "Hojae Lee and teammates at the 2025 ICPC Seoul Regional finals",
+    },
+    caption: {
+      ko: "2025 ICPC 서울 리저널 본선 현장",
+      en: "2025 ICPC Seoul Regional finals",
+    },
   },
-};
+];
 
 export type Award = {
   year: string;
@@ -140,13 +153,12 @@ export const AWARDS: Award[] = [
     body: {
       ko: (
         <>
-          ICPC 한국 예선 통과, <b>본선 진출</b>
+          ICPC 지역 예선 통과, <b>본선 진출</b>
         </>
       ),
       en: (
         <>
-          ICPC Korea: passed the preliminary, <b>advanced to the regional
-          finals</b>
+          ICPC: passed the regional qualifier, <b>advanced to the finals</b>
         </>
       ),
     },

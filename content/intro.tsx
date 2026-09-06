@@ -4,8 +4,8 @@ import type { Localized } from "@/lib/i18n";
 export const INTRO_LEAD: Localized<ReactNode> = {
   ko: (
     <>
-      홍익대학교 컴퓨터공학과 4학년, 세상의 문제를 찾아 해결하는 Problem
-      Solver입니다. 지금은 BAY(Blockchain at Yonsei) 18기 개발팀장을 맡고
+      홍익대학교 컴퓨터공학과 4학년입니다. 지금은 BAY(Blockchain at
+      Yonsei) 18기 개발팀장을 맡고
       있습니다. 누구도 제어하지 못하는 내 재화를{" "}
       <strong>코드로 직접 제어할 수 있다</strong>는 매력에 빠져 블록체인을
       좋아하게 됐고, 어려운 개념을 쉽게 풀어 설명하는 게 좋아 3년째 수학을
@@ -15,9 +15,8 @@ export const INTRO_LEAD: Localized<ReactNode> = {
   ),
   en: (
     <>
-      I&apos;m a senior in Computer Engineering at Hongik University and a
-      problem solver who goes looking for problems worth solving. I currently
-      lead the 18th-cohort dev team at BAY (Blockchain at Yonsei). I got into
+      I&apos;m a senior in Computer Engineering at Hongik University. I
+      currently lead the 18th-cohort dev team at BAY (Blockchain at Yonsei). I got into
       blockchain because{" "}
       <strong>it lets me control my own assets with code</strong> that no one
       else can touch, and I&apos;ve taught high school math for three years
